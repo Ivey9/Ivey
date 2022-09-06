@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/acer/Desktop/Project/Ivey.html# -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Ivey" content="ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل. عبر مجموعة من الإخـتبـارات الشخصية و كذا الذكاء">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bakkali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80f9fd535a.js" crossorigin="anonymous"></script> 
+    <title>Ivey</title>
+    <link rel="icon" type="image/png" href="logoiv.png"/>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"></link>
+
+</head> 
+<body>
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo"><a href="">Ivey«</a></div>
+    
+            </div>
+            
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                       <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <li><a href="file:///C:/Users/Ivey/Desktop/Ivey/home.html">الرئــيسـية</a></li>
+                    <li><a href="file:///C:/Users/Ivey/Desktop/Ivey/read.html">اقـــــــرأ</a></li>
+                    <li><a href="file:///C:/Users/Ivey/Desktop/Ivey/Tests.html">الإخـتبـارات</a></li>
+                    <li><a href="">أفكــار</a></li>
+                    <li><a href="file:///C:/Users/Ivey/Desktop/Ivey/about.html">حــولـــنـا</a></li>
+                </ul>
+                <div class="icon menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+        <a href="file:///C:/Users/Ivey/Desktop/Ivey/Tests.html" class="btn">إختبر ذكاءك و شخصيتك</a>
+        <h1>إذا كنت على دراية تامة بنفسك<br> حتما ستنميها:)</h1>
+        <p>ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل.
+            اختبار الذكاءات المتعددة: يستخدم هذا الاختبار لاكتشاف كيف تتعلم وكيف تعالج المعلومات.
+            16 اختبار الشخصية: سيساعدك هذا الاختبار في معرفة نوع شخصيتك.
+            اختبار السمات الخمس الكبرى: اختبار السمات الخمس الكبرى هو اختبار للشخصية يُستخدم لقياس الأبعاد الخمسة الرئيسية للشخصية البشرية ويقدم تقريرًا عن درجاتك في هذه السمات الخمس</p>
+        <div class="arrow-icons">
+        <img src="right-arrow.png" alt="none">
+        <img src="left-arrow.png" alt="none">
+        </div>
+        </div>
+        <img src="artificial-intelligence.png" class="inicial-image">
+        
+        
+        <div class="social-links">
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+            <a href="file:///C:/Users/Ivey/Desktop/Ivey/home.html">Website</a>
+        </div>
+    </div>
+    <script>
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+        }
+        
+    </script>
+</body>
+
